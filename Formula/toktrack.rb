@@ -1,5 +1,5 @@
 class Toktrack < Formula
-  desc "Ultra-fast token & cost tracker for AI CLIs (Claude Code, Codex, Gemini, OpenCode)"
+  desc "Ultra-fast token & cost tracker for AI CLIs (Claude, Codex, Gemini, OpenCode)"
   homepage "https://github.com/mag123c/toktrack"
   version "2.5.0"
   license "MIT"
