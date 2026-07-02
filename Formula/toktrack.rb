@@ -5,23 +5,23 @@ class Toktrack < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/mag123c/toktrack/releases/download/v2.13.1/toktrack-darwin-arm64.tar.gz"
-      sha256 "c4d5311203e5ba822cc9da0bfc363587f206d567a661f5ce086802dcee997cbb"
+      url "https://github.com/mag123c/toktrack/releases/download/v2.14.0/toktrack-darwin-arm64.tar.gz"
+      sha256 "4da5cf258f64f26cb99927577ac4c91de84e333a4690d4dd20fb5381f429e698"
     end
     on_intel do
-      url "https://github.com/mag123c/toktrack/releases/download/v2.13.1/toktrack-darwin-x64.tar.gz"
-      sha256 "f14b65aa1a8cca81f76b881c0335565eb73d08de6b004d093a99f8414d22094a"
+      url "https://github.com/mag123c/toktrack/releases/download/v2.14.0/toktrack-darwin-x64.tar.gz"
+      sha256 "7ef05e8f8daeed3f8f2b0e7daf448e2f1faa3a1ab0b6a57751562c594f3c63fc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mag123c/toktrack/releases/download/v2.13.1/toktrack-linux-arm64.tar.gz"
-      sha256 "52f84ff8e6314d7d62512e937df4c29993e7d97f9ebb6ed05859fc295cbaf5d7"
+      url "https://github.com/mag123c/toktrack/releases/download/v2.14.0/toktrack-linux-arm64.tar.gz"
+      sha256 "54eefb23c7cc0f8e967ae81361d3b838de8e43f298bef0a303c14c9c0a1204de"
     end
     on_intel do
-      url "https://github.com/mag123c/toktrack/releases/download/v2.13.1/toktrack-linux-x64.tar.gz"
-      sha256 "be5c6efaf029f0ae532132c6630a69f3d4746d180e7709d6c65f98a36542251a"
+      url "https://github.com/mag123c/toktrack/releases/download/v2.14.0/toktrack-linux-x64.tar.gz"
+      sha256 "e07d60ed1857967f3de9326d7171ba8de0717d4fbd1bc8c2c22e590a98a311bd"
     end
   end
 
