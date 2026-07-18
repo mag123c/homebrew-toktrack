@@ -1,28 +1,28 @@
 class Toktrack < Formula
   desc "Ultra-fast token & cost tracker for AI CLIs (Claude, Codex, Gemini, Qwen, OpenCode, PI Agent)"
   homepage "https://github.com/mag123c/toktrack"
-  version "2.15.0"
+  version "2.16.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mag123c/toktrack/releases/download/v2.15.0/toktrack-darwin-arm64.tar.gz"
-      sha256 "d1a7079d181b386d36d290887e089c8d56e728e7a43088fc3324659ae5cb181b"
+      url "https://github.com/mag123c/toktrack/releases/download/v2.16.0/toktrack-darwin-arm64.tar.gz"
+      sha256 "e41a875a00a370774b78f202f8c1fde436160996321f00685dca70795f42cc59"
     end
     on_intel do
-      url "https://github.com/mag123c/toktrack/releases/download/v2.15.0/toktrack-darwin-x64.tar.gz"
-      sha256 "7f5a42c9b2042dfdb54052aed1ca6dd7bb9b1804cccea40a27370ff4be350151"
+      url "https://github.com/mag123c/toktrack/releases/download/v2.16.0/toktrack-darwin-x64.tar.gz"
+      sha256 "0eee7950118943eae1c054cb74d2fbbeeefdf244ecaf0ecbec2642bac1c9f4d6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mag123c/toktrack/releases/download/v2.15.0/toktrack-linux-arm64.tar.gz"
-      sha256 "90a58daf51da0c6db220d690a3378c3799d3b6ba74d8447cf17f8103d5cfb48a"
+      url "https://github.com/mag123c/toktrack/releases/download/v2.16.0/toktrack-linux-arm64.tar.gz"
+      sha256 "3709134a343a73eb661f9344114235daae2d757f873f9499f01592ae03215c5c"
     end
     on_intel do
-      url "https://github.com/mag123c/toktrack/releases/download/v2.15.0/toktrack-linux-x64.tar.gz"
-      sha256 "4b40d7d486cc19e0c15a08c175ee631f109ef1aaf8401f8d0a67293582c4fa82"
+      url "https://github.com/mag123c/toktrack/releases/download/v2.16.0/toktrack-linux-x64.tar.gz"
+      sha256 "b07794596e8c2dc3352e70882124daf21bbaf05bf06881648eff294d0b4d4e6c"
     end
   end
 
